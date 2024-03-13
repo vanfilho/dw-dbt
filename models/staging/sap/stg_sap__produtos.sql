@@ -5,7 +5,7 @@ with
     )
     , renomear as (
         select
-            cast(ID as int) as id_produto
+            cast(ID as int) as PK_PRODUTO
             , cast(PRODUCTNAME as string) as nm_produto
             , cast(SUPPLIERID as int) as fk_fornecedor
             , cast(CATEGORYID as int) as fk_categoria
